@@ -1,5 +1,7 @@
 # Triturus
 
+> Triturus é um género de anfíbios pertencente à família Salamandridae, presente em grande parte da Europa, Ásia Menor e parte ocidental da Rússia.
+
 > Portfólio pessoal em Vue 3 com Vite e TypeScript, com seção de apresentação, tags de tecnologias e cards de projetos, pronto para deploy estático na Vercel.
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white)
