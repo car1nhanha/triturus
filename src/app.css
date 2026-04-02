@@ -7,7 +7,7 @@
   height: 100vh;
   min-height: 682px;
 
-  background: url(background_Intro.png);
+  background: url(./background_Intro.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
