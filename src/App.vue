@@ -30,6 +30,8 @@ import ProjectCard from "./components/organisms/ProjectCard.vue";
       <div class="tags">
         <Tag size="large" title="Node.js" />
         <Tag size="large" title="Go" />
+        <Tag size="large" title="VUE" />
+        <Tag size="large" title="React" />
         <Tag size="large" title="TypeScript" />
         <Tag size="large" title="NestJS" />
         <Tag size="large" title="AWS" />
