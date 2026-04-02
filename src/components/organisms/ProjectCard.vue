@@ -57,13 +57,10 @@ const items: ProjectItens[] = [
 
 <style lang="css" scoped>
 .projects-cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: center;
-  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  padding: 0;
   gap: 24px;
 
   width: 1040px;
@@ -81,8 +78,16 @@ const items: ProjectItens[] = [
   width: 508px;
 
   background: var(--gray-400);
+  border: 1.5px solid transparent;
+
   border-radius: 12px;
   text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  border: 1.5px solid var(--gray-300);
 }
 
 .project-image {

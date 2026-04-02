@@ -184,7 +184,7 @@
   height: 100vh;
   min-height: 787px;
 
-  background: url(background_Contacts.png);
+  background: url("/background_Contacts.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

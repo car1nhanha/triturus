@@ -62,10 +62,16 @@ const links = [
   width: 400px;
 
   background: var(--gray-400);
+  border: 1.5px solid transparent;
   border-radius: 8px;
 
   text-decoration: none;
   color: var(--gray-100);
+  transition: 0.3s;
+}
+
+.link:hover {
+  border: 1.5px solid var(--blue);
 }
 
 .link-content {
