@@ -27,6 +27,14 @@ const items: ProjectItens[] = [
     tags: ["VUE", "Vite", "TypeScript", "Vercel"],
     link: "https://triturus.vercel.app",
   },
+  {
+    title: "Plethodon",
+    description:
+      "Um projeto fullstack para criação de blogs pessoais fazendo importação de arquivos Markdown do GitHub.",
+    img: "https://github.com/car1nhanha/car1nhanha/blob/main/projetos/plethodon.png",
+    tags: ["React", "Node.js", "Vite", "TypeScript", "GitHub Actions", "Vercel", "PostgreSQL"],
+    link: "https://plethodon-frontend.vercel.app",
+  },
 ];
 </script>
 
