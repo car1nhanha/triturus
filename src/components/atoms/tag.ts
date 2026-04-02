@@ -11,6 +11,7 @@ export type TechnologyName =
   | "Vite"
   | "TailwindCSS"
   | "Styled Components"
+  | "Vercel"
   | "PostgreSQL"
   | "MySQL"
   | "MongoDB"
@@ -57,6 +58,7 @@ export const technologies: Technology[] = [
   { name: "Vite", background: "#646CFF", color: "#16181d" },
   { name: "TailwindCSS", background: "#06B6D4", color: "#16181d" },
   { name: "Styled Components", background: "#DB7093", color: "#16181d" },
+  { name: "Vercel", background: "#000000", color: "#FFFFFF" },
   { name: "PostgreSQL", background: "#4169E1", color: "#16181d" },
   { name: "MySQL", background: "#4479A1", color: "#16181d" },
   { name: "MongoDB", background: "#47A248", color: "#16181d" },

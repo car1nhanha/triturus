@@ -19,6 +19,14 @@ const items: ProjectItens[] = [
     tags: ["VUE", "Go", "Vite", "TypeScript", "AWS", "AWS Lambda", "GitHub Actions"],
     link: "https://amphiuma.vercel.app",
   },
+  {
+    title: "Triturus",
+    description:
+      "Portfólio pessoal em Vue 3 com Vite e TypeScript, com seção de apresentação, tags de tecnologias e cards de projetos, pronto para deploy estático na Vercel.",
+    img: "https://github.com/car1nhanha/triturus/raw/main/screenshot.png",
+    tags: ["VUE", "Vite", "TypeScript", "Vercel"],
+    link: "https://triturus.vercel.app",
+  },
 ];
 </script>
 
