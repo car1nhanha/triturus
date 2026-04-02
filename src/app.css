@@ -1,0 +1,173 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  min-height: 682px;
+
+  background: url(background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 80px;
+
+  width: 1040px;
+  max-width: 96%;
+}
+
+.header .header-content .header-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 56px;
+
+  width: 680px;
+  max-width: 100%;
+}
+
+.header-content .header-bio .container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+
+  border: 2px solid #e3646e;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header-bio .container-image .logo {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/*  */
+.header-content .bio-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 680px;
+  max-width: 100%;
+}
+
+.header-content .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 680px;
+  max-width: 100%;
+}
+
+.header-content .title .my-name {
+  font-family: "Inconsolata";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--gray-200);
+}
+.title .my-name .name {
+  color: var(--red);
+}
+
+.header-content .title .position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--gray-100);
+}
+
+.header-content .bio-text .description {
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--gray-300);
+}
+
+.header-content .tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  max-width: 90%;
+}
+
+/* main */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 120px 144px;
+  gap: 56px;
+
+  width: 1366px;
+  max-width: 96%;
+  margin: 0 auto;
+
+  height: 100vh;
+  min-height: 921px;
+}
+
+.main .main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 1040px;
+  max-width: 100%;
+}
+
+.main-header .my-works {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--red);
+}
+
+.main-header .see-my-works {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--gray-100);
+}
+
+.main .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  padding: 0px;
+  gap: 24px;
+}
