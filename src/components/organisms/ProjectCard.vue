@@ -67,6 +67,12 @@ const items: ProjectItens[] = [
   max-width: 100%;
 }
 
+@media screen and (max-width: 844px) {
+  .projects-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-card {
   display: flex;
   flex-direction: row;
@@ -90,6 +96,13 @@ const items: ProjectItens[] = [
   border: 1.5px solid var(--gray-300);
 }
 
+@media screen and (max-width: 844px) {
+  .project-card {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 .project-image {
   width: 224px;
   height: 156px;
@@ -97,6 +110,13 @@ const items: ProjectItens[] = [
   background: var(--gray-500);
   border-radius: 8px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 844px) {
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .project-body {

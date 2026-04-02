@@ -52,6 +52,12 @@ const links = [
   width: 400px;
 }
 
+@media screen and (max-width: 844px) {
+  .links {
+    width: 100%;
+  }
+}
+
 .link {
   display: flex;
   flex-direction: row;
@@ -68,6 +74,12 @@ const links = [
   text-decoration: none;
   color: var(--gray-100);
   transition: 0.3s;
+}
+
+@media screen and (max-width: 844px) {
+  .link {
+    width: 100%;
+  }
 }
 
 .link:hover {

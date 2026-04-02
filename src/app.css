@@ -5,7 +5,7 @@
   justify-content: center;
 
   height: 100vh;
-  min-height: 682px;
+  min-height: min-content;
 
   background: url("/background_Intro.png");
   background-repeat: no-repeat;
@@ -96,6 +96,12 @@
   color: var(--gray-100);
 }
 
+@media screen and (max-width: 844px) {
+  .header-content .title .position {
+    font-size: 32px;
+  }
+}
+
 .header-content .bio-text .description {
   font-family: "Maven Pro";
   font-style: normal;
@@ -110,6 +116,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding: 0px;
   gap: 12px;
 
@@ -129,8 +136,14 @@
   max-width: 96%;
   margin: 0 auto;
 
-  height: 100vh;
-  min-height: 921px;
+  height: content;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 844px) {
+  .main {
+    padding: 72px 14px 144px;
+  }
 }
 
 .main .main-header {
@@ -190,6 +203,12 @@
   background-position: center;
 }
 
+@media screen and (max-width: 844px) {
+  .footer {
+    padding: 128px 14px 200px;
+  }
+}
+
 .footer .footer-header {
   display: flex;
   flex-direction: column;
@@ -199,6 +218,12 @@
   gap: 8px;
 
   width: 420px;
+}
+
+@media screen and (max-width: 844px) {
+  .footer .footer-header {
+    width: 96%;
+  }
 }
 
 .footer-header .contact {
