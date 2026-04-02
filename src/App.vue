@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Tag from "./components/atoms/Tag.vue";
+import Links from "./components/organisms/Links.vue";
 import ProjectCard from "./components/organisms/ProjectCard.vue";
 </script>
 
@@ -49,6 +50,16 @@ import ProjectCard from "./components/organisms/ProjectCard.vue";
 
     <ProjectCard />
   </main>
+
+  <footer class="footer">
+    <div class="footer-header">
+      <h4 class="contact">Contato</h4>
+      <h3 class="like-my-works">Gostou do meu trabalho?</h3>
+      <p class="contact-me">Entre em contato ou acompanhe as minhas redes sociais!</p>
+    </div>
+
+    <Links />
+  </footer>
 </template>
 
 <style lang="css">
