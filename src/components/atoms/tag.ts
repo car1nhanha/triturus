@@ -54,6 +54,7 @@ export const technologies: Technology[] = [
   { name: "Express", background: "#000000", color: "#FFFFFF" },
   { name: "React", background: "#61DAFB", color: "#16181d" },
   { name: "VUE", background: "#4FC08D", color: "#16181d" },
+  { name: "Angular", background: "#c3002f", color: "#FFFFFF" },
   { name: "Next.js", background: "#000000", color: "#FFFFFF" },
   { name: "React Native", background: "#61DAFB", color: "#16181d" },
   { name: "Vite", background: "#646CFF", color: "#16181d" },
