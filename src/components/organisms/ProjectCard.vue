@@ -35,6 +35,14 @@ const items: ProjectItens[] = [
     tags: ["React", "Node.js", "Vite", "TypeScript", "GitHub Actions", "Vercel", "PostgreSQL"],
     link: "https://plethodon-frontend.vercel.app",
   },
+  {
+    title: "Scinax",
+    description:
+      "Prova de conceito em Angular para uma landing page de evento, com arquitetura de componentes, integração de ícones e interface pronta para evolução.",
+    img: "https://github.com/car1nhanha/scinax/raw/main/screenshot.png",
+    tags: ["Angular", "TypeScript", "GitHub Actions", "Vercel"],
+    link: "https://scinax-app.vercel.app",
+  },
 ];
 </script>
 

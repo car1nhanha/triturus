@@ -6,6 +6,7 @@ export type TechnologyName =
   | "Express"
   | "React"
   | "VUE"
+  | "Angular"
   | "Next.js"
   | "React Native"
   | "Vite"
